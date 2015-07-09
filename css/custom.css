@@ -1,0 +1,18 @@
+body {
+  background-color: #B2DFDB;
+}
+a{
+  color: #F50057;
+}
+a:hover{
+    color:  #C51162;
+}
+.page-header {
+    border-bottom-color: #4DB6AC;
+}
+.footer{
+    background-color:   #80CBC4;
+}
+.footer .text-muted{
+    color:  #00796B;
+}
