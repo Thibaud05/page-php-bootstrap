@@ -60,6 +60,12 @@ class page {
 	function displayFooter(){
 		echo $this->footer();
 	}
+	function displayHeaderBase(){
+		echo $this->headerBase();
+	}
+	function displayFooterBase(){
+		echo $this->footerBase();
+	}
 	function headerBase(){
 		return '
 			<!DOCTYPE html>
