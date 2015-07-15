@@ -1,6 +1,6 @@
 <?php
-include("class/page.class.php");
-$page = new page("3");
+include("class/template.php");
+$page = new template("3");
 $page->title = "Custom CSS";
 $page->desc = "Personalisé votre css pour certaine page";
 $page->tag = "Page, php, bootstrap";

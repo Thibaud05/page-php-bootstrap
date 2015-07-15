@@ -1,6 +1,6 @@
 <?php
-include("class/page.class.php");
-$page = new page("2");
+include("class/template.php");
+$page = new template("2");
 $page->title = "Page";
 $page->desc = "Description de la page";
 $page->tag = "Page, php, bootstrap";
@@ -12,10 +12,10 @@ $page->displayHeader();
 
 <div class="highlight"><pre><code class="language-html" data-lang="html">&lt;?php
 <span class="text-muted">// Chargement de la librairie</span>
-include("class/page.class.php");
+include("class/template.php");
 
 <span class="text-muted">// Création de l'objet page avec l'id en paramètre</span>
-$page = new page("2");
+$page = new template("2");
 
 <span class="text-muted">// Titre utilisé dans les balise  &lttitle&gt; et &lth1&gt;</span>
 $page-&gt;title = "Page";
