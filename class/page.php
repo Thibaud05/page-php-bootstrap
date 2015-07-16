@@ -1,7 +1,7 @@
 <?php
 abstract class page {
     
-    private  $id;
+    public  $id;
     public  $title;
     public  $site_title;
     public  $sep;

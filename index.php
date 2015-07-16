@@ -1,6 +1,6 @@
 <?php
 include("class/template.php");
-$page = new template("42");
+$page = new template("1");
 $page->title = "Page-php-bootstrap";
 $page->desc = "Description de la page";
 $page->tag = "Page, php, bootstrap";
