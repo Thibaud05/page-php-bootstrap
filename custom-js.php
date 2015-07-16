@@ -8,7 +8,7 @@ $page->addJs("js/custom.js");
 $page->displayHeader();
 ?>
 
-<p class="lead">Personnalisz votre javascirpt pour certaine page!.</p>
+<p class="lead">Personnalisez votre javascirpt pour certaine page!.</p>
 <p>Voici un exemple d'utilisation de js personnalisé.</p>
 <p id="customJs"></p>
 
