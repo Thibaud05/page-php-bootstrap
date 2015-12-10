@@ -1,7 +1,6 @@
 <?php
 abstract class page {
     
-    public  $id;
     public  $title;
     public  $site_title;
     public  $sep;
@@ -9,11 +8,17 @@ abstract class page {
     public  $tag;
     private  $css;
     private  $js;
+    public $url;
 
-    public function __construct($id){
-        $this->id = $id;
+    public function __construct(){
         $this->css = array();
         $this->js = array();
+        $this->site_title = "Mon site";
+        $this->sep = " - ";
+        $this->addCss("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
+        $this->addJs("https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js");
+        $this->addJs("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js");
+        $this->url = basename(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
     }
 
     abstract protected function header();

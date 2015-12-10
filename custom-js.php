@@ -1,6 +1,6 @@
 <?php
 include("class/template.php");
-$page = new template("4");
+$page = new template();
 $page->title = "Custom JS";
 $page->desc = "Personnalisz votre javascript pour certaine page !";
 $page->tag = "Page, php, bootstrap";
